@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apuntes_Formularios_HTML</title>
+</head>
+<body>
+    
+    <h1> Apuntes Formulario</h1>
+        <!-- TIPOS DE FORMULARIOS -->
+        <!--                      -->
+    <form action="" method="get">
+        <!-- NUMERICO -->
+        <label for="dni">DNI:</label><br>
+        <input type="number" name="" id="dni" placeholder="00000000X"><br>
+        <br><hr><br>
+        <!-- TEXTO -->
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="name" placeholder="Escribe tu nombre"><br>
+        <br><hr><br>
+        <!-- CONTRASEÑA -->
+        <label for="password">Contraseña:</label><br>
+        <input type="password" id="password" placeholder="Escribe tu contraseña"><br>
+        <br><hr><br>
+        <!-- EMAIL -->
+        <label for="email">Email</label><br>
+        <input type="email" id="email" placeholder="picasso@123.com"><br>
+        <br><hr><br>
+        <!-- MARCADO UNICO -->
+        <label for="sexo">Sexo:</label><br>
+        <input type="radio" name="sexo" id="sexo">Masculuno <br>
+        <input type="radio" name="sexo" id="sexo">Femenino <br>
+        <input type="radio" name="sexo" id="sexo">Androide <br>
+        <input type="radio" name="sexo" id="sexo">No recuerdo <br>
+        <br><hr><br>
+        <!-- MARCADO MULTIPLE -->
+        <label for="est">Estudios:</label><br>
+        <input type="checkbox"  id="est">Tecnico Superior de manporrero <br>
+        <input type="checkbox"  id="est">Criador de Suricatos <br>
+        <input type="checkbox"  id="est">Afinador de Flautas traveseras <br>
+        <input type="checkbox"  id="est">Programador de Tamagochis <br>
+        <br><hr><br>
+        <!-- ELECCION CAJA -->
+        <label>Pais:</label><br>
+        <select name="Pais" id="">Pais de origen
+        <option value="">Atlantida</option>
+        <option value="">Narnia</option>
+        <option value="">Varhala</option>
+        <option value="">Pandora</option>
+        <option value=""></option>
+        </select>
+        <br><hr><br>
+        <!-- COLOR  -->
+        <label for="color">Color:</label><br>
+        <input type="color" id="color"><br>
+        <br><hr><br>
+        <!-- FECHA  -->
+        <label for="fecha">Fecha:</label><br>
+        <input type="date" id="fecha"><br>
+        <br><hr><br>
+        <!-- HORA  -->
+        <label for="hora">Hora:</label><br>
+        <input type="time" id="hora"><br>
+        <br><hr><br>
+        <!-- Abrir Carpeta -->
+        <label for="archivo">Documento</label><br>
+        <input type="file" id="archivo"><br>
+        <br><hr><br>
+        <!-- AREA PARA ESCRIBIR -->
+        <label for="descripcion">¿A que huelen las nubes?</label><br>
+        <textarea name="" id="descripcion" cols="30" rows="5" placeholder="La ultima vez que pude oler una nube olia a..."></textarea><br>
+        <br><hr><br>
+        <!-- INPUT OBLIGATORIO: con "required" -->
+        <label for="user">Usuario Obligatorio:</label><br>
+        <input type="text" id="user" placeholder="Usuario" required><br>
+        <br><hr><br>
+        <!-- RESET --> <!-- Boton de enviar-->
+        <input type="reset" value="Restablecer">
+        <input type="submit" value="Enviar" Enviar>
+
+        <br><br>
+        
+
+    </form>
+
+</body>
+</html>
